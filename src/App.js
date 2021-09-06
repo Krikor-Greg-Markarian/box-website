@@ -11,6 +11,8 @@ import {
 import Navbarwhite from "./components/Navbarwhite";
 import Twolargefoursmall from "./components/Twolargefoursmall";
 import Smallboxes from "./components/Smallboxes";
+import Smallcomponent from "./components/Smallcomponent";
+import Rocket from "./components/Rocket";
 
 function App() {
   return (
@@ -73,22 +75,42 @@ function App() {
 
 
 
+    <div className = "border-t-4 container mx-auto mb-6"></div>
+
+      
+
+     <div>
+       
 
 
-      <div className = "container mx-auto">
-      <div className = "border-t-4 mb-2 container mx-auto">
-      <p className = "font-bold  mt-6">POPULAR VIDEOS</p>
+
+       
+     </div>
+
+
+
+
+
+
+
+
+    <div>
+
+    </div>
+
+
+
+
+    <div className = "border-t-4 container mx-auto mb-6"></div>
+    <div className = "container mx-auto">
+      <p className = "font-bold mt-6 mb-6">FEATURED VIDEOS</p>
+      <div className = "grid grid-cols-4 gap-2">
+        <Rocket />
+        <Rocket />
+        <Rocket />
+        <Rocket />
       </div>
-        <div className = "design2"></div>
-      </div>
-
-
-
-
-
-
-
-
+    </div>
 
 
 
