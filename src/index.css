@@ -73,10 +73,34 @@ body {
 
 
 .design2 {
-  background-image: url("https://cdn.pixabay.com/photo/2016/11/29/09/24/swan-1868697__480.jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2019/03/27/15/42/space-4085276__340.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 295px;
   width: 65%;
 }
+
+
+
+.smalldesign2 {
+  background-image: url("https://cdn.pixabay.com/photo/2018/02/20/14/51/menu-3167859__340.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 120px;
+  width: 65%;
+}
+
+
+.rocket {
+  background-image: url("https://cdn.pixabay.com/photo/2012/11/28/10/34/rocket-launch-67643__480.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 120px;
+  width: 92%;
+}
+
+
+
