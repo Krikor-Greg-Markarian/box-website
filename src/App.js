@@ -29,7 +29,7 @@ function App() {
       <div className="container mx-auto">
         <div className="grid grid-cols-2 gap-1 mt-4">
           <div className="col-span-1">
-            <Twolargefoursmall />
+            <Twolargefoursmall title = ""/>
           </div>
           <div className="col-span-1">
             <Twolargefoursmall />
@@ -144,7 +144,10 @@ function App() {
             </div>
 
             <div className="flex justify-center mt-12">
-              <div className="cellphone"></div>
+              <div className="cellphone text-white font-bold p-4 ">CenTre
+              <div className = "pt-2">MOST ADVANCED MAGAZINE AND NEWS</div>
+              <div className = "flex"><button className = "bg-blue-500 px-1 py-2 flex justify-center items-center mt-6">BUY NOW</button></div>
+              </div>
             </div>
           </div>
         </div>
@@ -254,9 +257,8 @@ function App() {
         {" "}
         &copy; 2018 centre | made by deothemes.
       </div>
-      <div className = "">
-        <div className = "backdrop-filter backdrop-opacity-100 bg-blue-900">asdasdasdasdasd</div>
-      </div>
+     
+       
     </div>
   );
 }
