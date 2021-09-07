@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Twolargefoursmall() {
+function Twolargefoursmall(props) {
     return (
        
            <div className = "">
-               <div className = "skateboard"></div>
+               <div className = "skateboard">{props.title}</div>
                
            </div>
         
