@@ -78,7 +78,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 295px;
-  width: 65%;
+  width: 88%;
 }
 
 
@@ -103,4 +103,24 @@ body {
 }
 
 
+.smallpicture {
+  background-image: url("https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455__340.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 47%;
+}
 
+
+
+
+
+.cellphone {
+  background-image: url("https://cdn.pixabay.com/photo/2015/11/19/21/14/glasses-1052023__340.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 62%;
+}
