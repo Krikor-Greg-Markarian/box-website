@@ -15,6 +15,7 @@ import Smallboxes from "./components/Smallboxes";
 import Smallcomponent from "./components/Smallcomponent";
 import Rocket from "./components/Rocket";
 import Smpic from "./components/Smpic";
+import Newset from "./components/Newset";
 
 function App() {
   return (
@@ -50,159 +51,113 @@ function App() {
         </div>
       </div>
 
-
-      <div className = "bg-gray-200 py-2 mt-8">
-          <p className = "font-bold mb-4 mt-4 container mx-auto">NEWEST VIDEOS</p>
-          <div className = "">
-            <div className = "design2 container mx-auto"></div>
-          </div>
-      </div>
-
-
-      
-
-
-
-
-      
-
-      <div className="container mx-auto mb-12 ">
-        <div className="">
-          <div className="font-bold mt-8 ml-6">
-            Deliver Smart Website Faster
-          </div>
-          <div className="text-gray-500 ml-6">
-            728*90
-            <button className="text-white bg-black px-2 py-2 float-right">
-              BUY IT
-            </button>
+      <div className="bg-gray-200">
+        <div className="container mx-auto">
+          <p className="font-bold mt-6">NEWEST VIDEOS</p>
+          <div className="grid grid-cols-2">
+            <div className="design2"></div>
+            <div className="grid cols-2">
+              <Newset />
+              <Newset />
+              <Newset />
+              <Newset />
+            </div>
           </div>
         </div>
       </div>
+
+     
+
+
+
+      
+        <div className="container mx-auto mb-12 ">
+        <div className="w-3/5">
+        <button className = "float-right bg-black text-white px-8 py-2">BUY IT</button>
+          <div className="font-bold mt-8 ml-6 ">Deliver Smart Website Faster</div>
+          
+          <div className="text-gray-500 ml-6">728*90</div>
+          <div>
+           
+          </div>
+        </div>
+      </div> 
+      
+
+
+
+
+
+
+
 
 
 
 
       <div className="border-t-4 container mx-auto mb-6"></div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <div className = "container mx-auto">
-      
-      <p className = "font-bold  mb-4">POPULAR VIDEOS</p>
-      <div className = "grid grid-cols-2">
-     <div className = "">
-    <div className = "design2"></div>
-    <div className ="grid grid-cols-3">
-      <div className = "col-span-1">
-      <Smallcomponent />
-      </div>
-      <div className = "col-span-1">
-      <Smallcomponent />
-      </div>
-      <div className = "col-span-1">
-      <Smallcomponent />
-      </div>
-    </div>
-    <div className ="grid grid-cols-3">
-      <div className = "col-span-1">
-      <Smallcomponent />
-      </div>
-      <div className = "col-span-1">
-      <Smallcomponent />
-      </div>
-      <div className = "col-span-1">
-      <Smallcomponent />
-      </div>
-    </div>
-    <button className = "border-2 text-center font-bold p-2 w-96 mt-6 ">Load More</button>
-    </div>
-
-    <div className = "">
-      <div className = "border-2 p-3 h-auto w-auto">
-        <p className = "font-bold">RECOMMENDED</p>
-        <Smallcomponent  />
-        <div className = "grid grid-cols-2">
-          <div>
-            <Smpic />
-            <Smpic />
-            <Smpic />
-            <Smpic />
-            <Smpic />
+      <div className="container mx-auto">
+        <p className="font-bold  mb-4">POPULAR VIDEOS</p>
+        <div className="grid grid-cols-2">
+          <div className="">
+            <div className="design2"></div>
+            <div className="grid grid-cols-3 gap-3 mt-4">
+              <div className="col-span-1">
+                <Smallcomponent />
+              </div>
+              <div className="col-span-1">
+                <Smallcomponent />
+              </div>
+              <div className="col-span-1">
+                <Smallcomponent />
+              </div>
+            </div>
+            <div className="grid grid-cols-3 gap-3 mt-4">
+              <div className="col-span-1">
+                <Smallcomponent />
+              </div>
+              <div className="col-span-1">
+                <Smallcomponent />
+              </div>
+              <div className="col-span-1">
+                <Smallcomponent />
+              </div>
+            </div>
+            <button className="border-2 text-center font-bold p-2 w-full mt-6 ">
+              Load More
+            </button>
           </div>
-          
+
+          <div className="pl-12">
+            <div className="border-2 p-3 h-auto w-auto ">
+              <p className="font-bold mt-2 mb-4">RECOMMENDED</p>
+              <Smallcomponent />
+              <div className="grid grid-cols-2 mt-4">
+                <div>
+                  <Smpic />
+                  <Smpic />
+                  <Smpic />
+                  <Smpic />
+                  <Smpic />
+                </div>
+              </div>
+            </div>
+
+            <div className="flex justify-center mt-12">
+              <div className="cellphone"></div>
+            </div>
+          </div>
         </div>
-        
       </div>
-     
-
-    <div className = "flex justify-center mt-12">
-      <div className = "cellphone"></div>
-    </div>
-
-
-
-
-
-    </div>
-    </div>
-
-
-    </div>
-
-
-
-      
-       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
       <div className="border-t-4 container mx-auto mt-12 mb-6"></div>
       <div className="container mx-auto">
         <p className="font-bold mt-6 mb-6">FEATURED VIDEOS</p>
         <div className="grid grid-cols-4 gap-2">
-          <Rocket />
-          <Rocket />
-          <Rocket />
-          <Rocket />
+          <Rocket title = "6 personal dears holdign you back from your dream career"/>
+          <Rocket title = "want to be more successful go o bed "/>
+          <Rocket title = "where to take the best photos in satouchi region, japan and spread"/>
+          <Rocket title = "facebook is changing the way it handles your data"/>
         </div>
       </div>
 
@@ -222,7 +177,7 @@ function App() {
           </div>
 
           <div className="mb-6 ml-8 text-sm">
-            <p className = "mb-4">TWITTER</p>
+            <p className="mb-4">TWITTER</p>
 
             <p className="mt-4 inline text-sm">
               <FaTwitter className="inline -ml-5 text-blue-700" />
@@ -240,36 +195,34 @@ function App() {
                 Deserunt neque aut tempore illo aperiam explicabo iusto error
                 accusamus.
               </p>
-              
-             
             </p>
             <p className="mt-4 text-xs">POSTED ON FEB 27, 2018</p>
           </div>
           <div className="mb-6 ml-8">
-            <p className = "text-sm mb-4">CATEGORIES</p>
+            <p className="text-sm mb-4">CATEGORIES</p>
 
-            <p className = "text-sm leading-8">
+            <p className="text-sm leading-8">
               World <span className="float-right text-sm">5</span>{" "}
             </p>
-            <p className = "text-sm leading-8">
+            <p className="text-sm leading-8">
               Lifestyle <span className="float-right text-sm">7</span>{" "}
             </p>
-            <p className = "text-sm leading-8">
+            <p className="text-sm leading-8">
               Business <span className="float-right text-sm">5</span>{" "}
             </p>
-            <p className = "text-sm leading-8">
+            <p className="text-sm leading-8">
               Fashion <span className="float-right text-sm">10</span>{" "}
             </p>
-            <p className = "text-sm leading-8">
+            <p className="text-sm leading-8">
               Investment <span className="float-right text-sm">10</span>{" "}
             </p>
-            <p className = "text-sm leading-8">
+            <p className="text-sm leading-8">
               Technology <span className="float-right text-sm">7</span>{" "}
             </p>
           </div>
         </div>
       </div>
-      <div className =" text-center mt-8 mb-4">
+      <div className=" text-center mt-8 mb-4">
         <div className="container mx-auto">
           <ul>
             <li className="inline font-bold">
@@ -297,7 +250,13 @@ function App() {
         </div>
       </div>
 
-      <div className = "text-gray-500 text-center mb-4"> &copy; 2018 centre | made by deothemes.</div>
+      <div className="text-gray-500 text-center mb-4">
+        {" "}
+        &copy; 2018 centre | made by deothemes.
+      </div>
+      <div className = "">
+        <div className = "backdrop-filter backdrop-opacity-100 bg-blue-900">asdasdasdasdasd</div>
+      </div>
     </div>
   );
 }
