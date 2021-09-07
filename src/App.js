@@ -51,12 +51,12 @@ function App() {
         </div>
       </div>
 
-      <div className="bg-gray-200">
-        <div className="container mx-auto">
+      <div className="bg-gray-200 p-1 mt-8">
+        <div className="container mx-auto ">
           <p className="font-bold mt-6">NEWEST VIDEOS</p>
-          <div className="grid grid-cols-2">
+          <div className="grid grid-cols-2 mt-3">
             <div className="design2"></div>
-            <div className="grid cols-2">
+            <div className="grid cols-2 mb-6">
               <Newset />
               <Newset />
               <Newset />
